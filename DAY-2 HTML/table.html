@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Table</title>
+  </head>
+  <body>
+    <!-- 
+        table
+            thead -> table head
+            tbody -> table body
+            tfoot -> table footer (optional)
+                tr -> table row
+                    td -> table data
+                    th -> table heading
+    -->
+    <table width="40%" border="1" cellspacing="0" cellpadding="10">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Extended</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Hard Disk</td>
+          <td rowspan="2" valign="top">1</td>
+          <td>500$</td>
+          <td>400$</td>
+        </tr>
+        <tr>
+          <td>CD Drive</td>
+          <!-- <td>1</td> -->
+          <td>200$</td>
+          <td>500$</td>
+        </tr>
+        <tr>
+          <td>Cds</td>
+          <td>10</td>
+          <td>20$</td>
+          <td>50$</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">
+            <strong>Total Amount</strong>
+          </td>
+          <!-- <td>
+            <strong>Total Amount</strong>
+          </td>
+          <td>
+            <strong>Total Amount</strong>
+          </td> -->
+          <td>950$</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
