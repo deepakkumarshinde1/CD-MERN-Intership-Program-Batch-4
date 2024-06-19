@@ -1,0 +1,55 @@
+/* resting css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  /* background-color: #27ae60; */
+  padding: 20px;
+  /* border-width: 5px;
+  border-color: #27ae60;
+  border-style: solid; */
+  border: 5px solid #27ae60;
+  /* padding: ;
+    border: ;
+    margin: ; */
+
+  overflow: auto;
+  margin: 20px;
+}
+
+/* 
+r 0 - 255
+g 0 - 255
+b 0 - 255
+
+r 0 ... f
+g 0 ... f
+b 0 ... f
+ */
+
+.image {
+  width: 50px;
+  height: 50px;
+  border: 1px dotted black;
+  border-radius: 50%;
+  /* border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px; */
+}
+
+/* top-left */
+/* top-right */
+/* bottom-left */
+/* bottom-right */
+
+.btn-upload {
+  background-color: transparent;
+  border: 1px dashed #f5b041;
+  /* border-radius: 10px; */
+  background-color: #884ea0;
+  color: #f5b041;
+  cursor: pointer;
+}

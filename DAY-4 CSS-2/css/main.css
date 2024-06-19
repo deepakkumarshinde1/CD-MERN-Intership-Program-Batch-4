@@ -1,0 +1,32 @@
+h1 {
+  background-color: magenta;
+  color: yellow;
+}
+#h1-id,
+.text-white {
+  color: white;
+}
+.bg-green {
+  background-color: green;
+}
+
+.text-bg-green {
+  background-color: green;
+  color: white;
+}
+/* element selector */
+/* id selector --> # */
+/* class selector --> . */
+/* group selector -->  selector,selector */
+
+#bg-red {
+  background-color: red;
+}
+
+.bg-brown {
+  background-color: brown;
+}
+
+p {
+  background-color: purple;
+}
